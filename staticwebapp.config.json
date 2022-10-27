@@ -2,8 +2,7 @@
     "routes": [
         {
             "route": "/login",
-            "allowedRoles": ["anonymous"],
-            "rewrite": "/.auth/login/aad"
+            "allowedRoles": ["anonymous"]
         },
         {
             "route": "/logout",
