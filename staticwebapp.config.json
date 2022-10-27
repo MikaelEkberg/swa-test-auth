@@ -5,6 +5,10 @@
             "allowedRoles": ["anonymous"]
         },
         {
+            "route": "/_next/static/css*",
+            "allowedRoles": ["anonymous"]
+        },
+        {
             "route": "/logout",
             "allowedRoles": ["authenticated"],
             "rewrite": "/.auth/logout"
