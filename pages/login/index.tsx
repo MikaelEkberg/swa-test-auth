@@ -32,6 +32,10 @@ export default function Login() {
           <a href="/.auth/login/github" className={styles.card}>
             <h2>Github &rarr;</h2>
           </a>
+
+          <a href="/.auth/login/google" className={styles.card}>
+            <h2>Google &rarr;</h2>
+          </a>
         </div>
       </main>
 
